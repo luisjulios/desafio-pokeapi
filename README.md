@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# PokeTienda!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desafío realizado para práctica Front-End Trainee.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Link al proyecto
 
-### `npm start`
+[PokeTienda](https://inspiring-cray-809417.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Información general
+Landing page para la visualización de pokemones, con barra de busqueda de pokémon.
+La página inicia con un listado de 30 pokemones.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías/librerías
 
-### `npm test`
+ - ReactJs: Para el desarrollo general del proyecto.
+ - Javascript: Para lógica de programación.
+ - JSX: Extensión de sintaxis de Javascript.
+ - CSS: Estilos de la app.
+ - PokeApi: https://pokeapi.co/docs/v2
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Componentes destacados
 
-### `npm run build`
+### Header
+Pequeño header con logo de PokeTienda con una animación de scale.
+### Input de búsqueda de pokémon
+Campo de busqueda, en el cual sólo puedes buscar por medio del nombre exacto del pokémon.
+### ItemListContainer
+Componente principal en el cual se visualiza el listado de pokemones arrojados por la PokeApi.
+### ItemList
+Componente ubicado dentro del ItemListContainer donde se itera el listado de los pokemones.
+### Item
+Card con información de los pokemones cargados, en el cual se aprecia:
+-Imagen del pokémon.
+-Nombre.
+-Tipo de pokémon.
+### Footer
+Link al perfil del desarrollador.
+Link a la página de la empresa.
+###
+## Modo Responsive
+Se diseño el modo responsive en las siguientes resoluciones:
+Mobile: 375px
+Tablet S: 576px
+Tablet M: 768px
+Resto del responsive para Desktop.
+## Estilos
+CSS Puro, con 2 animaciones, una para el logo del Header, y otra para el Loading de la pokkébola.
+Font: Lato, San-Serif.
+Colores: #EF5350, #D32B2B, #FFCD00, #2366BD
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Folders
+Todos los componentes se encuentran separados por carpetas, así mismo cada componente tiene en su misma carpeta sus estilos.
+Dentro de src se encuentra un archivo llamada getAPI.js para cada request.
+El resto de la lógica de los llamados se encuentran dentro del componente ItemListContainer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación 
+*npm i*
+___
+## Para inicio del servidor
+*npm run start*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+___
+### Desarrollado por [Luis Julio](https://www.linkedin.com/in/antsth/)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
