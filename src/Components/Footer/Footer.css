@@ -1,0 +1,22 @@
+.footer {
+  width: auto;
+  height: 5rem;
+  background-color: #D32B2B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+.footer p {
+color: #fff;
+margin: .5rem;
+}
+.dev {
+  font-weight: 700;
+  color: #FFCD00;
+}
+.company {
+  font-weight: 700;
+  color: #2366BD;
+}

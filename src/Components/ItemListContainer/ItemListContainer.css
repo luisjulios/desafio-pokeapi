@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.greetings {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #EF5350;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+.notFound {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #EF5350;
+  text-transform: capitalize;
+  margin: 1rem;
+}

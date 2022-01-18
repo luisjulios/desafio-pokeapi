@@ -1,0 +1,28 @@
+@media only screen and (min-width: 375px) {
+  .search {
+  width: 80%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  }
+}
+.inputSearch {
+width: 30rem;
+height: 2rem;
+border: .1rem solid #FFCD00;
+border-radius: 0.5rem;
+padding: .5rem;
+font-family: 'Lato', sans-serif;
+text-transform: lowercase;
+}
+.inputButton {
+width: 3rem;
+height: 2rem;
+border: .1rem solid #FFCD00;
+border-radius: 0.5rem;
+background-color: #EF5350;
+color: #fff;
+font-family: 'Lato', sans-serif;
+}
