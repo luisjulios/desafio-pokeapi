@@ -10,7 +10,6 @@ const ItemListContainer = ({greetings}) => {
   const [isLoading, setIsLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
   const [searching, setSearching] = useState(false)
-  const [page, setPage] = useState(0)
 
   const fetchPokemons = async () => {
     try {
@@ -42,7 +41,6 @@ const ItemListContainer = ({greetings}) => {
       return;
     } else {
       setPokemons([result])
-      setPage(0)
     }
     setIsLoading(false)
     setSearching(false)
@@ -52,7 +50,7 @@ const ItemListContainer = ({greetings}) => {
     if(!searching) {
       fetchPokemons()
     }
-  }, [page])
+  }, [])
     
   
   return (

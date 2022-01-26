@@ -9,7 +9,7 @@ export const searchPokemon = async (pokemon) =>{
   }
 };
 
-export const getPokemons = async (limit = 25) => {
+export const getPokemons = async (limit = 30) => {
   try {
     let url = `https://pokeapi.co/api/v2/pokemon?limit=${limit}`;
     let response = await fetch(url);
